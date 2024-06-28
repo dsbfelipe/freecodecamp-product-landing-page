@@ -1,0 +1,781 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Crimson Text", serif;
+  font-style: normal;
+}
+
+#list-bold {
+  filter: invert(80%);
+  margin-left: 8px;
+  margin-top: 8px;
+  padding-bottom: 8px;
+  width: 24px;
+}
+
+html {
+  background-color: black;
+}
+
+main {
+  color: #deddd9;
+}
+
+#mobile-header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+video {
+  height: 700px;
+  align-content: center;
+  position: absolute;
+  overflow-x: hidden;
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
+  margin-top: 40px;
+}
+
+#mobile-square-logo {
+  width: 172px;
+  border-left: 1px solid rgba(128, 128, 128, 0.7);
+  padding-left: 12px;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+#mobile-header-left-side {
+  display: flex;
+  align-items: center;
+}
+
+#user-thin {
+  filter: invert(80%);
+  width: 24px;
+}
+
+#shopping-cart-thin {
+  filter: invert(80%);
+  width: 24px;
+}
+
+#mobile-header-right-side {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.white-font {
+  color: #ffffff;
+}
+
+#final-fantasy-logo {
+  width: 192px;
+}
+
+#menu {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 32px;
+}
+
+#mobile-header-lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 64px;
+  padding: 0 16px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 272px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+#dlc-label {
+  width: 390px;
+}
+
+#dlc-description {
+  color: #e8e6e3;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+#hero-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.playstation-button-text {
+  text-align: left;
+  width: 60%;
+  margin-left: 6px;
+}
+
+.playstation-button {
+  width: 250px;
+  display: flex;
+  background-color: #191b1c;
+  border: none;
+  align-items: center;
+  color: #deddd9;
+  gap: 12px;
+  font-size: 14px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  justify-content: center;
+  min-height: 58px;
+}
+
+.logo-playstation {
+  width: 40px;
+  padding: 8px 16px 8px 6px;
+  border-right: 1px solid #ddd5b596;
+}
+
+.bege-button {
+  width: 250px;
+  background-color: #403414;
+  border: 2px double #665320;
+  color: #deddd9;
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.available-dlc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  padding-top: 56px;
+  padding-bottom: 64px;
+  gap: 24px;
+  width: 372px;
+  position: absolute;
+  transform: translateY(-212px) translateX(-186px);
+}
+
+#echoes-background {
+  filter: brightness(65%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  background-size: cover;
+  border: 4px double #665320;
+  height: 212px;
+  width: 380px;
+  background-image: url(https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=16%2016w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=32%2032w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=48%2048w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=64%2064w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=96%2096w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=128%20128w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=256%20256w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=375%20375w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=384%20384w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=768%20768w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=1024%201024w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=1440%201440w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=2048%202048w,%20https://fyre.cdn.sewest.net/ff-xvi/65520a2298774a5fd69839f3/echoes-of-the-fallen-HZXHlb6hT.jpg?quality=85&width=3840%203840w);
+}
+
+#rising-background {
+  filter: brightness(65%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  background-size: cover;
+  border: 4px double #665320;
+  height: 212px;
+  width: 380px;
+  background-image: url(https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=16%2016w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=32%2032w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=48%2048w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=64%2064w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=96%2096w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=128%20128w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=256%20256w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=375%20375w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=384%20384w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=768%20768w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=1024%201024w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=1440%201440w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=2048%202048w,%20https://fyre.cdn.sewest.net/ff-xvi/655225a7aed7bb35a2c8383e/rising-tide-ZCA77SRhP.jpg?quality=85&width=3840%203840w);
+}
+
+#echoes-logo {
+  width: 320px;
+}
+
+#rising-logo {
+  width: 320px;
+}
+
+.dlc-container-label {
+  font-size: 24px;
+  color: #deddd9;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.dlc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seta-esquerda {
+  transform: rotate(180deg);
+}
+
+#historia-header {
+  color: #e3d0a1;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  gap: 24px;
+  font-weight: 700;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 128px;
+}
+
+.seta {
+  height: 16px;
+}
+
+#historia-container {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://fyre.cdn.sewest.net/ff-xvi/637cf3e24dc880a0db62c534/web-story-2-9SqsTN5Qa.jpg?quality=85&width=3840);
+  background-size: cover;
+  padding-bottom: 72px;
+  background-position-x: center;
+  margin-bottom: 24px;
+}
+
+#historia-title,
+#historia-text {
+  color: #deddd9;
+  text-align: center;
+}
+
+#historia-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+#historia-text {
+  line-height: 1.5;
+  margin-bottom: 32px;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#personagens-header {
+  color: #e3d0a1;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  gap: 24px;
+  font-weight: 700;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+#personagens-background {
+  width: 380px;
+}
+
+#personagens-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#box-personagens {
+  border: 4px double #665320;
+  width: 380px;
+  padding-bottom: 32px;
+}
+
+#characters-png {
+  position: absolute;
+  width: 350px;
+  transform: translateX(-376px) translateY(-50px);
+}
+
+#characters-text {
+  line-height: 1.5;
+  margin-bottom: 32px;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-shadow: 2px 2px 2px black;
+  color: #deddd9;
+  text-align: center;
+  margin-top: 224px;
+}
+
+.personagens-button {
+  width: 280px;
+}
+
+#combate-header {
+  margin-top: 96px;
+  color: #e3d0a1;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  gap: 24px;
+  font-weight: 700;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+#combate-text-1 {
+  line-height: 1.5;
+  margin-bottom: 64px;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-shadow: 2px 2px 2px black;
+  color: #deddd9;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.combate-img {
+  width: 380px;
+  border: 4px double #665320;
+}
+
+#combate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://fyre.cdn.sewest.net/ff-xvi/63898374cc59a44fa1236ffc/background_3-DcHdiAhJz.jpg?quality=85&width=3840);
+  background-size: cover;
+  background-position-x: -750px;
+  background-position-y: 130px;
+}
+
+#combate-text-2 {
+  line-height: 1.5;
+  margin-bottom: 32px;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-shadow: 2px 2px 2px black;
+  color: #deddd9;
+  text-align: center;
+  margin-top: 12px;
+}
+
+#combate-text-2-label {
+  font-size: 20px;
+  color: #e3d0a1;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+#combate-text-3 {
+  line-height: 1.5;
+  margin-bottom: 72px;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-shadow: 2px 2px 2px black;
+  color: #deddd9;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.right-yellow-arrow {
+  transform: rotate(180deg);
+}
+
+.yellow-arrow {
+  width: 24px;
+}
+
+#line {
+  width: 312px;
+  height: 1px;
+  background-color: #665320dc;
+}
+
+#combate-line {
+  margin-top: 88px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#galeria-header {
+  margin-top: 56px;
+  color: #e3d0a1;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  gap: 24px;
+  font-weight: 700;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+#pictures-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid #8c8273;
+}
+
+#grid-img-1 {
+  grid-area: img1;
+}
+
+#grid-img-2 {
+  grid-area: img2;
+}
+
+#grid-img-3 {
+  grid-area: img3;
+}
+
+#pictures-container {
+  display: grid;
+  grid-template-areas:
+    "img1 img1"
+    "img1 img1"
+    "img2 img3";
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: fit-content;
+  padding-left: 16px;
+  padding-right: 16px;
+  column-gap: 10px;
+  row-gap: 4px;
+  margin-bottom: 32px;
+}
+
+#galeria-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#galeria-line {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#compra-header {
+  margin-top: 56px;
+  color: #e3d0a1;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  gap: 24px;
+  font-weight: 700;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+#country-container {
+  margin-top: 24px;
+  color: #e8e6e3;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+}
+
+#select-country {
+  background-color: #000000;
+  color: #deddd9;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  width: 40%;
+}
+
+#country-label {
+  font-size: 18px;
+}
+
+#label-edicao {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.edition-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px double #665320;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  margin-bottom: 24px;
+}
+
+.edition-label {
+  font-size: 24px;
+  font-weight: 700;
+  color: #e3d0a1;
+  margin-bottom: 16px;
+}
+
+.midia {
+  margin-top: 24px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#compra-line {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+#dlc-lower-label {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+#passe-logo {
+  width: 190px;
+}
+
+#passe-background {
+  filter: brightness(65%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  background-size: cover;
+  border: 4px double #665320;
+  height: 212px;
+  width: 380px;
+  background-position-x: -30px;
+  background-image: url(https://fyre.cdn.sewest.net/ff-xvi/65522604aed7bb35a2c83d44/expansion-pass-l26Ua8cUy.jpg?quality=85&width=3840);
+}
+
+.passe-dlc {
+  transform: translateY(-220px) translateX(-186px);
+  gap: 16px;
+}
+
+#edicoes-box {
+  margin-top: 56px;
+  width: 380px;
+  height: 360px;
+  border: 4px double #665320;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 400%;
+  background-position-x: -550px;
+  background-position-y: -30px;
+  background-image: url(https://fyre.cdn.sewest.net/ff-xvi/6384bf274dc880a0db62ec9c/editions_background-KVMFq8Roc.png?quality=85&width=3840);
+}
+
+#boletim-label,
+#email-label,
+#email-input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+#email::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+  border: 1px solid #665320;
+  margin-top: 64px;
+}
+
+#boletim-label {
+  color: #e3d0a1;
+  font-weight: 500;
+  padding-left: 16px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+#email-label {
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+#email-input {
+  width: 352px;
+  height: 40px;
+  background-color: #151617;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+#email {
+  background-color: #151617;
+  border: none;
+  width: 60%;
+  padding-left: 16px;
+}
+
+#submit {
+  background-color: #151617;
+  border: none;
+  color: #deddd9;
+  font-size: 18px;
+  padding-right: 16px;
+  font-weight: 700;
+}
+
+.left-demo-arrow {
+  transform: rotate(180deg);
+}
+
+#demo-button {
+  background-color: #141617;
+  border: 4px double #665320;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+  height: 80px;
+  margin-top: 12px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 128px;
+}
+
+#demo-text {
+  color: #e3d0a1;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.demo-arrow {
+  width: 40px;
+}
+
+#select-language-container {
+  background-color: #191b1c;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#select-language {
+  background-color: #191b1c;
+  border: none;
+  color: #deddd9;
+  font-weight: 600;
+  font-size: 16px;
+  width: 60%;
+}
+
+.socials-icon {
+  width: 24px;
+}
+
+#socials-icons {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+#language-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#select-language-label {
+  margin-bottom: 16px;
+}
+
+#square-enix-logo-lower {
+  margin-top: 32px;
+  width: 180px;
+}
+
+#ps5-logo {
+  margin-top: 64px;
+  width: 100px;
+}
+
+#tag-16 {
+  margin-top: 64px;
+  width: 88px;
+}
+
+#copyright-1,
+#copyright-2 {
+  text-align: center;
+  width: 90%;
+  line-height: 1.5;
+}
+
+#copyright-1 {
+  margin-top: 64px;
+}
+
+#copyright-2 {
+  margin-bottom: 48px;
+}
+
+#options p {
+  margin-bottom: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#options {
+  margin-bottom: 64px;
+}
