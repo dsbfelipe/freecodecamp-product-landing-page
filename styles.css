@@ -1367,14 +1367,76 @@ form {
 
   #dlcs-container-2 #echoes-background {
     filter: brightness(65%);
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 32px;
     background-size: cover;
     border: 4px double #665320;
-    height: 212px;
-    width: 380px;
-    background-position-x: -30px;
-    background-image: url(https://fyre.cdn.sewest.net/ff-xvi/65522604aed7bb35a2c83d44/expansion-pass-l26Ua8cUy.jpg?quality=85&width=3840);
+    height: 350px;
+    width: 90%;
+    background-position-x: -150px;
+    margin-right: 12px;
+  }
+
+  #dlcs-container-2 #rising-background {
+    filter: brightness(65%);
+    margin-top: 32px;
+    background-size: cover;
+    border: 4px double #665320;
+    height: 350px;
+    width: 90%;
+    background-position-x: -150px;
+    margin-left: 12px;
+  }
+
+  #passe-background {
+    background-position-x: -210px;
+  }
+
+  #dlcs-container-2 #rising-logo {
+    width: 250px;
+  }
+  #dlcs-container-2 #echoes-logo {
+    width: 250px;
+  }
+  #dlcs-container-2 #passe-logo {
+    width: 150px;
+  }
+
+  #dlcs-container-2 .available-dlc {
+    width: 250px;
+    transform: translateY(-370px) translateX(-125px);
+  }
+
+  #dlcs-container-2 .dlc-container-label {
+    width: 100%;
+  }
+
+  #dlcs-container-2 .buttons {
+    transform: translateY(185px) translateX(0px);
+  }
+
+  #dlcs-container-2 .playstation-button {
+    width: 250px;
+  }
+
+  #dlcs-container-2 .bege-button {
+    width: 250px;
+  }
+
+  #edicoes-box {
+    background-position-x: -250px;
+    background-position-y: -40px;
+    background-size: 150%;
+  }
+
+  #demo-text {
+    font-size: 32px;
+  }
+
+  #email-input {
+    width: 97.5%;
+  }
+
+  #copyright-1 {
+    margin-top: 56px;
   }
 }
