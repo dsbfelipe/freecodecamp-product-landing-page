@@ -34,6 +34,14 @@ main {
   color: #deddd9;
 }
 
+#header {
+  display: none;
+}
+
+.container-personagens-1024 {
+  display: none;
+}
+
 #mobile-header {
   background-color: black;
   display: flex;
@@ -601,6 +609,8 @@ video {
 }
 
 #edicoes-box {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 56px;
   width: 380px;
   height: 360px;
@@ -792,280 +802,579 @@ form {
   margin-bottom: 64px;
 }
 
-@media only screen and (min-width: 820px) {
-  #video {
-    height: 1600px;
-  }
+.combate-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  #list-bold {
-    width: 56px;
-    padding-left: 8px;
-  }
+.indiv-combat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  #mobile-square-logo {
-    width: 384px;
-    margin-left: 16px;
-    padding-left: 24px;
-    border-left: 3px solid rgba(128, 128, 128, 0.7);
-  }
-
-  #shopping-cart-thin {
-    width: 56px;
+@media only screen and (min-width: 768px) {
+  #menu {
+    padding-right: 8px;
   }
 
   #user-thin {
-    width: 56px;
-    padding-right: 8px;
-    padding-left: 16px;
-  }
-
-  #mobile-header {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-
-  #mobile-header-lower {
-    margin-top: 128px;
-  }
-
-  #final-fantasy-logo {
-    width: 400px;
-    margin-left: 16px;
-    margin-top: 16px;
-  }
-
-  #menu {
-    font-size: 36px;
-    padding-right: 24px;
-    margin-top: 8px;
+    margin-right: 8px;
   }
 
   #hero-section {
-    margin-top: 618px;
+    margin-top: 275px;
   }
 
   #dlc-label {
-    width: 90%;
+    width: 545px;
   }
 
   #dlc-description {
-    font-size: 50px;
-    width: 80%;
-    letter-spacing: 2.4px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-  }
-
-  .playstation-button {
-    width: 500px;
-    height: 128px;
-  }
-
-  .bege-button {
-    width: 500px;
-    height: 128px;
-    font-size: 38px;
-    border: 6px double #665320;
-  }
-
-  .logo-playstation {
-    width: 96px;
-  }
-
-  .playstation-button-text {
-    font-size: 32px;
-  }
-
-  .buttons {
-    gap: 50px;
-    margin-top: 40px;
+    margin-top: 8px;
   }
 
   #hero-section .buttons {
-    gap: 40px;
+    flex-direction: row;
+    margin-top: 24px;
   }
 
-  #echoes-background {
-    width: 800px;
-    height: 430px;
-    border: 12px double #665320;
-  }
-
-  .available-dlc {
-    width: 800px;
-    gap: 48px;
-    transform: translateX(-400px) translateY(-380px);
-  }
-
-  #echoes-logo {
-    width: 670px;
-  }
-
-  .dlc-container-label {
-    font-size: 56px;
-  }
-
-  .dlc {
-    margin-top: 32px;
-  }
-
-  #rising-background {
-    width: 800px;
-    height: 430px;
-    border: 12px double #665320;
-  }
-
-  #rising-logo {
-    width: 670px;
-  }
-
-  .seta {
-    width: 96px;
-    height: 40px;
-  }
-
-  #historia-label {
-    font-size: 44px;
-    letter-spacing: 1.2px;
-  }
-
-  #historia-header {
-    gap: 56px;
-    margin-top: 48px;
-  }
-
-  #historia-title {
-    font-size: 40px;
-    margin-top: 100px;
-  }
-
-  #historia-text {
-    margin-top: 40px;
-    font-size: 36px;
-    width: 90%;
-    margin-bottom: 64px;
-  }
-
-  #historia-container {
-    padding-bottom: 128px;
-  }
-
-  #personagens-label {
-    font-size: 44px;
-    letter-spacing: 1.2px;
-  }
-
-  #personagens-header {
-    gap: 56px;
-    margin-top: 40px;
-    margin-bottom: 4px;
-  }
-
-  #box-personagens {
-    width: 90%;
-    border: 12px double #665320;
-  }
-
-  #personagens-background {
-    width: 100%;
-  }
-
-  #characters-png {
-    width: 700px;
-    transform: translateX(-753px) translateY(-85px);
-  }
-
-  #characters-text {
-    margin-top: 500px;
-    font-size: 36px;
-    width: 90%;
-    margin-bottom: 56px;
-  }
-
-  .personagens-button {
-    width: 80%;
-    margin-bottom: 32px;
-  }
-
-  #combate-label {
-    font-size: 44px;
-  }
-
-  #combate-header {
-    gap: 64px;
-    margin-top: 256px;
-  }
-
-  #combate-text-1 {
-    font-size: 36px;
-    width: 90%;
-    margin-top: 48px;
-    margin-bottom: 160px;
-  }
-
-  .combate-img {
-    width: 90%;
-    border: 12px double #665320;
-  }
-
-  #combate-text-2-label {
-    font-size: 44px;
+  #dlcs-container {
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 72px;
   }
 
-  #combate-text-2 {
-    font-size: 36px;
-    width: 90%;
-    margin-bottom: 56px;
-    margin-top: 32px;
+  .dlc {
+    width: 350px;
   }
 
+  #echoes-background,
+  #rising-background {
+    width: 340px;
+    height: 350px;
+    background-position-x: -130px;
+  }
+
+  #rising-logo,
+  #echoes-logo {
+    width: 75%;
+  }
+
+  .available-dlc {
+    transform: translateY(-365px) translateX(-186px);
+  }
+
+  #dlcs-container .buttons {
+    position: absolute;
+    transform: translateY(185px);
+  }
+
+  .seta {
+    height: 16px;
+  }
+
+  #historia-label {
+    font-size: 24px;
+  }
+
+  #historia-header {
+    margin-top: 8px;
+  }
+
+  #historia-title {
+    margin-top: 328px;
+  }
+
+  #personagens-label {
+    font-size: 24px;
+  }
+
+  #personagens-header {
+    margin-top: 8px;
+  }
+
+  #box-personagens {
+    width: 730px;
+    padding-bottom: 0;
+    background-image: url(https://br.finalfantasyxvi.com/_next/static/media/background.25346ff5.jpg);
+    background-size: cover;
+    background-position-x: -300px;
+  }
+
+  #personagens-background {
+    display: none;
+  }
+
+  #characters-png {
+    width: 460px;
+    transform: translateX(-240px) translateY(-55px);
+  }
+
+  #characters-text {
+    margin-top: 425px;
+  }
+
+  .personagens-button {
+    margin-bottom: 80px;
+  }
+
+  .combate-inner-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    width: fit-content;
+  }
+
+  .indiv-combat {
+    width: 350px;
+  }
+
+  .combate-img {
+    width: 340px;
+    height: 200px;
+  }
+
+  #combate-text-2,
   #combate-text-3 {
-    font-size: 36px;
-    width: 90%;
-    margin-bottom: 160px;
-    margin-top: 20px;
+    width: 100%;
+  }
+
+  #combate-label {
+    font-size: 24px;
+  }
+
+  #combate-header {
+    margin-top: 100px;
+  }
+
+  #combate-text-2-label,
+  #combate-text-3-label {
+    font-size: 24px;
+  }
+
+  #combate-container {
+    background-position-x: -350px;
+    background-position-y: -10px;
   }
 
   #line {
-    width: 700px;
-    height: 3px;
-  }
-
-  .yellow-arrow {
-    width: 56px;
+    width: 670px;
   }
 
   #combate-line {
-    margin-top: 196px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    width: 90%;
-  }
-
-  #galeria-header {
-    gap: 56px;
     margin-top: 96px;
-    margin-bottom: 40px;
   }
 
   #galeria-label {
-    font-size: 44px;
+    font-size: 24px;
+  }
+
+  #select-country {
+    width: 22%;
+  }
+
+  #compra-label {
+    font-size: 24px;
+  }
+
+  #editions-conteiner {
+    display: flex;
+    width: 85%;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #compra-line {
+    margin: 24px;
+  }
+
+  #lower-dlcs {
+    align-items: center;
+    display: flex;
+  }
+
+  #dlcs-container-2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #dlcs-container-2 .available-dlc {
+    width: 230px;
+    transform: translateY(-370px) translateX(-115px);
+  }
+
+  #dlcs-container-2 #rising-background,
+  #dlcs-container-2 #echoes-background,
+  #passe-background {
+    width: 90%;
+  }
+
+  #dlcs-container-2 #rising-logo {
+    background-position: -215px;
+  }
+
+  #dlcs-container-2 #echoes-background {
+    background-position: -190px;
+  }
+
+  #passe-background {
+    background-position: -260px;
+  }
+
+  #passe-background {
+    height: 350px;
+  }
+
+  #dlcs-container-2 .playstation-button,
+  #dlcs-container-2 .bege-button {
+    width: 200px;
+  }
+
+  #dlcs-container-2 .buttons {
+    position: absolute;
+    transform: translateY(200px);
+  }
+
+  #dlcs-container-2 #rising-logo,
+  #dlcs-container-2 #echoes-logo {
+    width: 200px;
+  }
+
+  #passe-logo {
+    width: 100px;
+  }
+
+  #dlcs-container-2 .dlc-container-label {
+    width: 70%;
+  }
+
+  #edicoes-box {
+    width: 96.5%;
+    margin-top: 48px;
+    background-size: 200%;
+    background-position-x: -400px;
+    background-position-y: -40px;
+  }
+
+  #form {
+    width: 97.5%;
+  }
+
+  #email-input {
+    width: 96.5%;
+  }
+
+  #demo-button {
+    width: 98%;
+  }
+
+  #options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  #options p {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #mobile-header-lower {
+    display: none;
+  }
+
+  #header-img {
+    width: 192px;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding: 0 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+
+  #header-div {
+    display: flex;
+    gap: 32px;
+  }
+
+  #nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  #nav-bar li {
+    list-style: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  #header button {
+    width: 200px;
+    margin-right: 32px;
+  }
+
+  video {
+    height: 900px;
+  }
+
+  #dlcs-container {
+    width: 100%;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .dlc {
+    width: 100%;
+  }
+
+  #echoes-background {
+    width: 95%;
+    height: 420px;
+    margin-right: 0;
+  }
+
+  #rising-background {
+    width: 95%;
+    height: 420px;
+    margin-left: 0;
+  }
+
+  #echoes-logo {
+    width: 420px;
+  }
+
+  #rising-logo {
+    width: 420px;
+  }
+
+  .available-dlc {
+    width: 420px;
+    transform: translateY(-400px) translateX(-200px);
+  }
+
+  .available-rising {
+    transform: translateY(-400px) translateX(-220px);
+  }
+
+  #dlcs-container .buttons {
+    margin-top: 64px;
+    transform: translateY(185px) translateX(-10px);
+  }
+
+  #dlcs-container .echoes-buttons {
+    transform: translateY(185px) translateX(5px);
+  }
+
+  #historia-label {
+    font-size: 36px;
+  }
+
+  #historia-text {
+    width: 80%;
+  }
+
+  #personagens-label {
+    font-size: 36px;
+  }
+
+  #box-personagens {
+    width: 96%;
+    height: 600px;
+    margin-top: 64px;
+    background-position-x: -150px;
+  }
+
+  #characters-text {
+    display: none;
+  }
+
+  #box-personagens .personagens-button {
+    display: none;
+  }
+
+  #characters-png {
+    transform: translateX(-30px) translateY(-70px);
+    width: 500px;
+  }
+
+  #personagens-header {
+    display: none;
+  }
+
+  #personagens-header-1024 {
+    color: #e3d0a1;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 24px;
+    font-weight: 700;
+    align-items: center;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+  }
+
+  .container-personagens-1024 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38%;
+    position: absolute;
+    transform: translateX(-250px) translateY(230px);
+  }
+
+  .personagens-button {
+    margin-top: 92px;
+  }
+
+  #combate-label {
+    font-size: 36px;
+  }
+
+  #combate-header {
+    margin-top: 160px;
+  }
+
+  #combate-text-1 {
+    width: 75%;
+  }
+
+  .combate-img {
+    width: 475px;
+    height: auto;
+  }
+
+  .indiv-combat {
+    width: 100%;
+  }
+
+  .combate-inner-container {
+    gap: 0px;
+  }
+
+  #combate-text-2-label {
+    font-size: 36px;
+  }
+
+  #combate-text-2,
+  #combate-text-3 {
+    width: 90%;
+  }
+
+  #line {
+    width: 930px;
+  }
+
+  #combate-text-2-label {
+    font-size: 36px;
+  }
+
+  #galeria-label {
+    font-size: 36px;
   }
 
   #pictures-container {
-    width: 90%;
-    row-gap: 12px;
-    column-gap: 24px;
-    margin-bottom: 64px;
+    display: none;
   }
 
-  #pictures-container img {
-    border: 5px solid #8c8273;
+  #grid-img-1 {
+    grid-area: img1;
   }
 
-  #galeria-line {
-    margin-top: 96px;
+  #grid-img-2 {
+    grid-area: img2;
+  }
+
+  #grid-img-3 {
+    grid-area: img3;
+  }
+
+  #grid-img-4 {
+    grid-area: img4;
+  }
+
+  #grid-img-5 {
+    grid-area: img5;
+  }
+
+  #pictures-container-1024 {
+    display: grid;
+    grid-template-areas:
+      "img1 img1 img2 img3"
+      "img1 img1 img4 img5";
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: fit-content;
+    padding-left: 16px;
+    padding-right: 20px;
+    column-gap: 10px;
+    row-gap: 4px;
+    margin-bottom: 32px;
+    align-items: center;
+  }
+
+  #pictures-container-1024 img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #8c8273;
+  }
+
+  #pictures-container-1024 #grid-img-1 {
+    height: 280px;
+  }
+
+  #compra-label {
+    font-size: 36px;
+  }
+
+  #select-country {
+    width: 170px;
+  }
+
+  .edition-box {
+    width: 100%;
+  }
+
+  #editions-conteiner {
+    width: 100%;
+    margin-left: 16px;
+  }
+
+  .padrao {
+    margin-right: 32px;
+  }
+
+  #dlcs-container-2 #echoes-background {
+    filter: brightness(65%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    background-size: cover;
+    border: 4px double #665320;
+    height: 212px;
+    width: 380px;
+    background-position-x: -30px;
+    background-image: url(https://fyre.cdn.sewest.net/ff-xvi/65522604aed7bb35a2c83d44/expansion-pass-l26Ua8cUy.jpg?quality=85&width=3840);
   }
 }
