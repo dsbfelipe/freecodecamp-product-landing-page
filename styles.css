@@ -42,6 +42,10 @@ main {
   display: none;
 }
 
+#pictures-container-1024 {
+  display: none;
+}
+
 #mobile-header {
   background-color: black;
   display: flex;
