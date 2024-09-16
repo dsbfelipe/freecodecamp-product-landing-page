@@ -1142,7 +1142,6 @@ form {
   }
 
   #dlcs-container {
-    width: 100%;
     gap: 24px;
     justify-content: center;
   }
@@ -1189,12 +1188,24 @@ form {
     transform: translateY(185px) translateX(5px);
   }
 
+  #dlcs-container,
+  #personagens-container,
+  #galeria-container,
+  #compra-container,
+  #dlcs-container-2,
+  #edicoes-box,
+  #form,
+  #demo-button {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #historia-label {
     font-size: 36px;
   }
 
   #historia-text {
-    width: 80%;
+    width: 900px;
   }
 
   #personagens-label {
